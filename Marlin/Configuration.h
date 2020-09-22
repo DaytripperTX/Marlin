@@ -1012,8 +1012,8 @@
  * A total of 2 does fast/slow probes with a weighted average.
  * A total of 3 or more adds more slow probes, taking the average.
  */
- //#define MULTIPLE_PROBING 2
- //#define EXTRA_PROBING    1
+ #define MULTIPLE_PROBING 2
+ #define EXTRA_PROBING    1
 
  /**
   * Z probes require clearance when deploying, stowing, and moving between
@@ -1396,7 +1396,7 @@
 
 // Homing speeds (mm/min)
 #define HOMING_FEEDRATE_XY (50*60)
-#define HOMING_FEEDRATE_Z  (20*60)
+#define HOMING_FEEDRATE_Z  (30*60)
 
 // Validate that endstops are triggered on homing moves
 #define VALIDATE_HOMING_ENDSTOPS
